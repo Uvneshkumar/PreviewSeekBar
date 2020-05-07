@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
                             | View.SYSTEM_UI_FLAG_FULLSCREEN);
         } else {
             Toolbar toolbar = findViewById(R.id.toolbar);
-            toolbar.inflateMenu(R.menu.main);
+//            toolbar.inflateMenu(R.menu.main);
             toolbar.setOnMenuItemClickListener(this);
         }
     }
