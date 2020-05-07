@@ -97,7 +97,7 @@ public class ExoPlayerManager implements PreviewLoader {
 
     public void stopPreview(long position) {
         player.seekTo(position);
-        player.setPlayWhenReady(true);
+//        player.setPlayWhenReady(true);
     }
 
     private void releasePlayers() {
@@ -131,7 +131,7 @@ public class ExoPlayerManager implements PreviewLoader {
 
     @Override
     public void loadPreview(long currentPosition, long max) {
-        player.setPlayWhenReady(false);
+//        player.setPlayWhenReady(false);
         GlideApp.with(imageView)
                 .load(thumbnailsUrl)
                 .override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL)
